@@ -1,0 +1,64 @@
+(*
+T: PROGRAM Main
+FW: NO
+CI#: 5
+QSL: 9
+QVE: 9
+QVPC: 9
+QPar: 0
+QFBI: 1
+*)
+@V 1 6 0
+CTU_1	1	VAR	@FB:6
+		     
+
+;
+
+@V 1 7 0
+Sensor	2	VAR	@TYP:1
+%IX 0.4		     
+
+;
+
+@V 1 8 0
+Reset	3	VAR	@TYP:1
+		     
+
+;
+
+@V 1 9 0
+MaxCapacity	4	VAR	@TYP:3
+		     
+@TYP:3# 00#0014
+;
+
+@V 1 10 0
+Full	5	VAR	@TYP:1
+		     
+
+;
+
+@V 1 11 0
+OpenForBusiness	6	VAR	@TYP:1
+		     
+
+;
+
+@V 1 12 0
+GateOpen	7	VAR	@TYP:1
+%QX 0.6		     
+
+;
+
+@V 1 13 0
+NumberOfCars	8	VAR	@TYP:3
+		     
+
+;
+
+@V 1 18 0
+G_NumberOfCars	9	VAR_EXTERNAL	@TYP:3
+@RV 10		     
+
+;
+

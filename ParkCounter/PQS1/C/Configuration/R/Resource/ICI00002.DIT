@@ -1,0 +1,28 @@
+(*
+T: PROGRAM Money
+FW: NO
+CI#: 2
+QSL: 3
+QVE: 3
+QVPC: 3
+QPar: 0
+QFBI: 0
+*)
+@V 1 6 0
+Income	1	VAR	@TYP:11
+		     
+
+;
+
+@V 1 7 0
+NumberOfCars	2	VAR	@TYP:11
+		     
+
+;
+
+@V 1 12 0
+G_NumberOfCars	3	VAR_EXTERNAL	@TYP:3
+@RV 10		     
+
+;
+

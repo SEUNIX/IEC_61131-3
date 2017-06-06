@@ -1,0 +1,101 @@
+TYPE
+
+	TASK_NAME_TYPE 	: ARRAY[0..9] OF BYTE;
+	RESERVE_22_BYTE : ARRAY[1..22] OF BYTE;
+	RESERVE_6_BYTE  : ARRAY[1..6] OF BYTE;
+	TASK_NAME_ECLR  : STRING(35);
+
+	(*1,1*)
+	EXT_TASK_INFO	: STRUCT
+		(*1,2*)
+		(*1,3*)
+		Name			: TASK_NAME_TYPE;   (*1,4*)
+		Priority		: INT;            (*1,5*)
+		unused_0		: INT;
+		Period			: INT;            (*1,6*)
+		Stack			: INT;              (*1,7*)
+		unused_1		: INT;
+		Watchdog		: INT;            (*1,8*)
+		unused_2		: RESERVE_6_BYTE;
+		CurDuration		: INT;          (*1,9*)
+		MinDuration		: INT;          (*1,10*)
+		MaxDuration		: INT;          (*1,11*)
+		unused_3		: INT;
+		CurDelay		: INT;            (*1,12*)
+		MinDelay		: INT;            (*1,13*)
+		MaxDelay		: INT;            (*1,14*)
+		unused_4		: RESERVE_22_BYTE;
+	END_STRUCT;
+
+
+	(*1,15*)
+	TASK_INFO_ECLR : STRUCT
+		(*1,16*)
+		(*1,17*)
+		Stack         : INT;      	       (*1,18*)
+		Priority      : INT;        	     (*1,19*)
+		Period_us     : DINT;           	 (*1,20*)
+		Watchdog_us   : DINT;          	   (*1,21*)
+		Period        : INT;            	 (*1,22*)
+		Watchdog      : INT;             	 (*1,23*)
+
+		MinDuration_us    : DINT;          (*1,24*)
+		MaxDuration_us    : DINT;          (*1,25*)
+		CurDuration_us    : DINT;          (*1,26*)
+		MinDelay_us       : DINT;          (*1,27*)
+		MaxDelay_us       : DINT;          (*1,28*)
+		CurDelay_us       : DINT;          (*1,29*)
+
+		MinDuration       : INT;           (*1,30*)
+		MaxDuration       : INT;           (*1,31*)
+		CurDuration       : INT;           (*1,32*)
+		MinDelay          : INT;           (*1,33*)
+		MaxDelay          : INT;           (*1,34*)
+		CurDelay          : INT;           (*1,35*)
+
+		unused_1          : DINT;
+		unused_2          : DINT;
+		unused_3          : DINT;
+		unused_4          : DINT;
+		unused_5          : DINT;
+		unused_6          : DINT;
+		unused_7          : DINT;
+		unused_8          : DINT;
+		unused_9          : DINT;
+
+		Name         	  : TASK_NAME_ECLR;  (*1,36*)
+	END_STRUCT;
+
+
+	TIMING_INFO : STRUCT
+		current    : UDINT;
+		minimum    : UDINT;
+		maximum    : UDINT;
+		cumulative : UDINT;
+		reserved1  : UDINT;
+		reserved2  : UDINT;
+	END_STRUCT;
+
+
+	MotionEngine : STRUCT
+		MotionScan   	: TIMING_INFO;
+		ISREvent  		: TIMING_INFO;
+		SystemEventH 	: TIMING_INFO;
+		SystemEventL 	: TIMING_INFO;
+		AlarmHandler	: TIMING_INFO;
+	END_STRUCT;
+
+
+	TASK_TIMING_INFO : STRUCT
+		current    : UDINT;
+		minimum    : UDINT;
+		maximum    : UDINT;
+		reserved1  : UDINT;
+		reserved2  : UDINT;
+		reserved3  : UDINT;
+	END_STRUCT;
+
+	TASK_TIMING_INFO_ARRAY : ARRAY[1..16] OF TASK_TIMING_INFO;
+
+
+END_TYPE
