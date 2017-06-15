@@ -2,9 +2,9 @@
 T: RESOURCE Resource
 FW: NO
 CI#: 0
-QSL: 12
-QVE: 12
-QVPC: 12
+QSL: 18
+QVE: 18
+QVPC: 18
 QPar: 0
 QFBI: 0
 *)
@@ -69,14 +69,50 @@ G_NumberOfCars	10	VAR_GLOBAL	@TYP:3
 ;
 
 @V 1 23 0
-DI_PcSim	11	VAR_GLOBAL	@TYP:17
-%IB 0		     
+DI_00	11	VAR_GLOBAL	@TYP:1
+%IX 0.0		     
 
 ;
 
 @V 1 24 0
-DO_PcSim	12	VAR_GLOBAL	@TYP:17
+DI_01	12	VAR_GLOBAL	@TYP:1
+%IX 0.1		     
+
+;
+
+@V 1 25 0
+DO_00	13	VAR_GLOBAL	@TYP:1
+%QX 0.0		     
+
+;
+
+@V 1 26 0
+DI_PcSim	14	VAR_GLOBAL	@TYP:17
+%IB 0		     
+
+;
+
+@V 1 27 0
+DO_PcSim	15	VAR_GLOBAL	@TYP:17
 %QB 0		     
+
+;
+
+@V 1 28 0
+G_Sensor	16	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 29 0
+G_GateOpen	17	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 30 0
+G_OpenForBusiness	18	VAR_GLOBAL	@TYP:1
+		     
 
 ;
 
