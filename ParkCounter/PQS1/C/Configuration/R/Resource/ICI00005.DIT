@@ -2,9 +2,9 @@
 T: PROGRAM Money
 FW: NO
 CI#: 5
-QSL: 3
-QVE: 3
-QVPC: 3
+QSL: 5
+QVE: 5
+QVPC: 5
 QPar: 0
 QFBI: 0
 *)
@@ -24,5 +24,17 @@ NumberOfCars	2	VAR	@TYP:11
 G_NumberOfCars	3	VAR_EXTERNAL	@TYP:3
 @RV 10		     
 
+;
+
+@V 1 17 0
+Tax	4	VAR	@TYP:11
+		     
+
+;
+
+@V 1 18 0
+TaxRate	5	VAR	@TYP:11
+		     
+@TYP:11# 8.00000000000000040E-001
 ;
 

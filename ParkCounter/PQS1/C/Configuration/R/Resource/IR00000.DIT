@@ -2,9 +2,9 @@
 T: RESOURCE Resource
 FW: NO
 CI#: 0
-QSL: 18
-QVE: 18
-QVPC: 18
+QSL: 19
+QVE: 19
+QVPC: 19
 QPar: 0
 QFBI: 0
 *)
@@ -112,6 +112,12 @@ G_GateOpen	17	VAR_GLOBAL	@TYP:1
 
 @V 1 30 0
 G_OpenForBusiness	18	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 31 0
+Tax	19	VAR_GLOBAL	@TYP:11
 		     
 
 ;

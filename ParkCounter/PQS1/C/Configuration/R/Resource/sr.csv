@@ -16,3 +16,4 @@
 @GV.G_Sensor,%MX 32770.0,BOOL,Resource,0x00008002 1 M,1,1,0,0,0,0,0,0
 @GV.G_GateOpen,%MX 32771.0,BOOL,Resource,0x00008003 1 M,1,1,0,0,0,0,0,0
 @GV.G_OpenForBusiness,%MX 32772.0,BOOL,Resource,0x00008004 1 M,1,1,0,0,0,0,0,0
+@GV.Tax,%MF 32776.0,LREAL,Resource,0x00008008 0 M,8,11,0,0,0,0,0,0
