@@ -26,3 +26,20 @@
 		- Physical Hardware -> IO_Configuration: Properties -> task
 - IO_Execution_Timing
 - ![IO_Execution_Timing](./image/IO_Execution_Timing.png)
+
+### 3.Force I/O Variables
+- Only variables with I/O address can be forced
+- Force status
+- ![Force_status](./image/Force_status)
+- Force I/O Variable
+- ![Force_IO_Variable](./image/Force_IO_Variable)
+- Force List
+- ![Force_List](./image/Force_List)
+- PLC Force State
+- ![PLC_Force_State](./image/PLC_Force_State)
+- LREAL Value Display
+- !(LREAL_Value_Display)[./image/LREAL_Value_Display]
+- Watch Window
+- ![Watch_Window](./image/Watch_Window)
+- Cross Reference
+- ![Cross_Reference](./image/Cross_Reference)
