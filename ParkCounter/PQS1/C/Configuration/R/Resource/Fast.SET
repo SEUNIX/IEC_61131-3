@@ -1,0 +1,6 @@
+TASK Fast
+(TYPE := CYCLIC,
+INTERVAL := T#20ms,
+PRIORITY := 0,
+WATCHDOG := 20
+);

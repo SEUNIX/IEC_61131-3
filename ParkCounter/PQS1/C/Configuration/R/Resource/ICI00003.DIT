@@ -1,82 +1,27 @@
 (*
-T: PROGRAM Main
-FW: NO
+T: FUNCTION MUL
+FW: YES	INL_PN MUL SKIP_IMAGE
 CI#: 3
-QSL: 12
-QVE: 12
-QVPC: 12
-QPar: 0
-QFBI: 1
+QSL: 0
+QVE: 3
+QPar: 3
+QFBI: 0
 *)
-@V 1 6 0
-CTU_1	1	VAR	@FB:4
-		     
+
+IN1	1	VAR_INPUT	@TYP:30	
+	
 
 ;
+PFW:
 
-@V 1 7 0
-Sensor	2	VAR	@TYP:1
-%IX 0.4		     
-
-;
-
-@V 1 8 0
-Reset	3	VAR	@TYP:1
-		     
+IN2	2	VAR_INPUT	@TYP:30	
+	
 
 ;
+PFW: CF#1 EXT
 
-@V 1 9 0
-MaxCapacity	4	VAR	@TYP:3
-		     
-@TYP:3# 00#0014
-;
-
-@V 1 10 0
-Full	5	VAR	@TYP:1
-		     
+MUL	3	VAR_OUTPUT	@TYP:30	
+	
 
 ;
-
-@V 1 15 0
-OpenForBusiness	6	VAR RETAIN	@TYP:1
-		     
-
-;
-
-@V 1 20 0
-GateOpen	7	VAR	@TYP:1
-%QX 0.6		     
-
-;
-
-@V 1 21 0
-NumberOfCars	8	VAR	@TYP:3
-		     
-
-;
-
-@V 1 26 0
-G_NumberOfCars	9	VAR_EXTERNAL	@TYP:3
-@RV 10		     
-
-;
-
-@V 1 27 0
-G_Sensor	10	VAR_EXTERNAL	@TYP:1
-@RV 16		     
-
-;
-
-@V 1 28 0
-G_GateOpen	11	VAR_EXTERNAL	@TYP:1
-@RV 17		     
-
-;
-
-@V 1 29 0
-G_OpenForBusiness	12	VAR_EXTERNAL	@TYP:1
-@RV 18		     
-
-;
-
+PFW: CF#1

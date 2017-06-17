@@ -1,1 +1,5 @@
-Task	0	1
+Slow	0	1
+BckGnd	1	1
+Cold	1	2
+Warm	0	2
+Fast	2	1

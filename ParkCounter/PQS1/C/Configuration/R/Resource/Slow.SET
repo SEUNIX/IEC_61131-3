@@ -1,0 +1,6 @@
+TASK Slow
+(TYPE := CYCLIC,
+INTERVAL := T#200ms,
+PRIORITY := 7,
+WATCHDOG := 200
+);

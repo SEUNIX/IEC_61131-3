@@ -1,21 +1,46 @@
 (*
-T: FUNCTION INT_TO_LREAL
-FW: YES	INL_ACCU_CONV INT_TO_LREAL SKIP_IMAGE
+T: PROGRAM I_PcSim
+FW: NO
 CI#: 7
-QSL: 0
-QVE: 2
-QPar: 2
+QSL: 6
+QVE: 6
+QVPC: 6
+QPar: 0
 QFBI: 0
 *)
-
-IN	1	VAR_INPUT	@TYP:3	
-	
-
-;
-PFW:
-
-INT_TO_LREAL	2	VAR_OUTPUT	@TYP:11	
-	
+@V 1 6 0
+DI_00	1	VAR_EXTERNAL	@TYP:1
+@RV 11		     
 
 ;
-PFW:
+
+@V 1 7 0
+DO_00	2	VAR_EXTERNAL	@TYP:1
+@RV 13		     
+
+;
+
+@V 1 8 0
+DI_01	3	VAR_EXTERNAL	@TYP:1
+@RV 12		     
+
+;
+
+@V 1 9 0
+G_GateOpen	4	VAR_EXTERNAL	@TYP:1
+@RV 17		     
+
+;
+
+@V 1 10 0
+G_Sensor	5	VAR_EXTERNAL	@TYP:1
+@RV 16		     
+
+;
+
+@V 1 11 0
+G_OpenForBusiness	6	VAR_EXTERNAL	@TYP:1
+@RV 18		     
+
+;
+

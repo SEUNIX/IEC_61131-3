@@ -1,8 +1,9 @@
 (*
-T: FUNCTION MUL
-FW: YES
+T: PROGRAM Init
+FW: NO
 CI#: 6
 QSL: 0
 QJM: 0
 QJ: 0
+QR: 0
 *)

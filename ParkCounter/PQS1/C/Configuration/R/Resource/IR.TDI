@@ -1,49 +1,77 @@
-12
+19
 82
-0 0 11 0
+0 0 18 0
 @V2 2 RESOURCE Resource 0 0 0
 	
 86
-11 1 0 0
+18 1 0 0
 @V2 10 @ Global_Variables 0 0 0
 F C\Configuration\R\Resource\Global_Variables.vb
 12
-7 1 3 0
+14 1 3 0
 @V2 12 @ FUNCTIONS 0 0 0
 	
 78
-8 2 0 0
-@V2 6 INT_TO_LREAL INT_TO_LREAL 0 7 0
+15 2 0 0
+@V2 6 INT_TO_LREAL INT_TO_LREAL 0 4 0
 	
 78
-9 2 0 0
-@V2 6 MUL MUL 0 6 0
+16 2 0 0
+@V2 6 MUL MUL 0 3 0
 	
 78
-10 2 0 0
+17 2 0 0
 @V2 6 AND AND 0 1 0
 	
 84
-1 1 5 0
-@V2 3 @ Task 0 0 0
+1 1 1 0
+@V2 3 @ Slow 0 0 0
 F 
 80
 2 2 0 0
-@V2 4 I_PcSim I_PcSim 1 2 0
+@V2 4 Money Money 1 2 0
 	
+84
+3 1 1 0
+@V2 3 @ BckGnd 0 0 0
+F 
 80
-3 2 1 0
-@V2 4 Main Main 2 3 0
+4 2 0 0
+@V2 4 LowerestPriority LowerestPriority 2 5 0
 	
-70
-4 3 0 0
-@V2 5 CTU CTU_1 3 4 1
-	
-80
-5 2 0 0
-@V2 4 Money Money 4 5 0
-	
+84
+5 1 1 0
+@V2 3 @ Cold 0 0 0
+F 
 80
 6 2 0 0
-@V2 4 Q_PcSim Q_PcSim 5 8 0
+@V2 4 Init Init_Cold 3 6 0
+	
+84
+7 1 1 0
+@V2 3 @ Warm 0 0 0
+F 
+80
+8 2 0 0
+@V2 4 Init Init_Warm 4 6 0
+	
+84
+9 1 4 0
+@V2 3 @ Fast 0 0 0
+F 
+80
+10 2 0 0
+@V2 4 I_PcSim I_PcSim 5 7 0
+	
+80
+11 2 1 0
+@V2 4 Main Main 6 8 0
+	
+70
+12 3 0 0
+@V2 5 CTU CTU_1 7 9 1
+	
+80
+13 2 0 0
+@V2 4 Q_PcSim Q_PcSim 8 10 0
 	

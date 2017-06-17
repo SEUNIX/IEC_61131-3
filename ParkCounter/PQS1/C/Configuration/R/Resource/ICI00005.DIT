@@ -1,40 +1,10 @@
 (*
-T: PROGRAM Money
+T: PROGRAM LowerestPriority
 FW: NO
 CI#: 5
-QSL: 5
-QVE: 5
-QVPC: 5
+QSL: 0
+QVE: 0
+QVPC: 0
 QPar: 0
 QFBI: 0
 *)
-@V 1 6 0
-Income	1	VAR	@TYP:11
-		     
-
-;
-
-@V 1 7 0
-NumberOfCars	2	VAR	@TYP:11
-		     
-
-;
-
-@V 1 12 0
-G_NumberOfCars	3	VAR_EXTERNAL	@TYP:3
-@RV 10		     
-
-;
-
-@V 1 17 0
-Tax	4	VAR	@TYP:11
-		     
-
-;
-
-@V 1 18 0
-TaxRate	5	VAR	@TYP:11
-		     
-@TYP:11# 8.00000000000000040E-001
-;
-

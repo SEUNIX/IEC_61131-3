@@ -1,5 +1,5 @@
 (*
 QWS: 00002
 *)
-00001	00005	POE\Money\MoneyV.vb
-00002	00000	POE\Money\Money.stb
+00001	00000	POE\LowerestPriority\LowerestPriorityV.vb
+00002	00000	POE\LowerestPriority\LowerestPriority.stb

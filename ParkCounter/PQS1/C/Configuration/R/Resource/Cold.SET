@@ -1,0 +1,4 @@
+TASK Cold
+(TYPE := SYSTEM,
+SPG := 1
+);
