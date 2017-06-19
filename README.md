@@ -1,4 +1,5 @@
 ## 1.[Training: IEC 61131-3 Basics with MotionWorks IEC](https://www.youtube.com/playlist?list=PLNAENlyEDCkzMwkIpWNwX0DeJdlVFwyB0)
+## 2.[IEC61131-3编程语言及应用基础笔记](./IEC61131-3编程语言及应用基础)
 ---
 ### 1.address_define
 - ![address_define](./image/address_define.png)
@@ -82,4 +83,13 @@
 - Task Execution
 - ![5.11](./image/Task_Execution.png)
 
+### 6.Logic Analyzer
+- Overview
+- ![6.1](./image/Logic_Analyzer_Overivew.png)
+- Add Variables
+- ![6.2](./image/Add_Variables.png)
+- Trigger Configuration
+- ![6.3](./image/Trigger_Configuration.png)
+- Record Data
+- ![6.4](./image/Record_Data.png)
 
